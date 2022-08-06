@@ -13,7 +13,7 @@ public class Enemigos {
 
     public int xPos, yPos,colision,colision2,auxenemigo,aux;
     
-    private final BufferedImage enemigo1, enemigo2;
+    public BufferedImage enemigo1, enemigo2;
     public boolean izquierda, derecha;
     Random rand;
 
