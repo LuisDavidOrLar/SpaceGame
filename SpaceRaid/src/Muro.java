@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 
 public class Muro {
     public int vida,xPos,yPos,aux, colision,colision2;;
-    public final BufferedImage muro;
+    public BufferedImage muro;
     Random rand;
     
     public Muro(int vida,int colision1, int colision2){
